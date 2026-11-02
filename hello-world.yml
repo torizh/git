@@ -1,0 +1,8 @@
+---
+name: testplaybook
+hosts: localhost
+become: true
+tasks:
+  - name: debug
+    debug:
+      msg: test
